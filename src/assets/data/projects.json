@@ -1,0 +1,78 @@
+{
+  "projectsList": [
+    {
+      "id": "campoverde",
+      "slug": "crm-exportador-frutas-campoverde",
+      "status": "production",
+      "featured": true,
+      "cover": {
+        "src": "/src/assets/img/jcv.webp"
+      },
+      "technologies": ["Django", "Angular", "Vue", "n8n", "Metabase"]
+    },
+    {
+      "id": "motian",
+      "slug": "gestion-partes-trabajo-motian",
+      "status": "production",
+      "featured": false,
+      "cover": {
+        "src": "/src/assets/img/motian.webp"
+      },
+      "technologies": ["Django", "Flutter", "Angular", "Vue", "n8n", "Listmonk"]
+    },
+    {
+      "id": "montable-valoraciones",
+      "slug": "registro-valoraciones-control-costes-montable",
+      "status": "testing",
+      "featured": false,
+      "cover": {
+        "src": "/src/assets/img/dashboard.jpg"
+      },
+      "technologies": ["Django", "Vue", "n8n"]
+    }
+  ],
+  "projectsContent": {
+    "campoverde": {
+      "status": "production",
+      "cover": {
+        "src": "/src/assets/img/jcv.webp"
+      },
+      "techStack": {
+        "backend": ["Django REST Framework"],
+        "frontend": {
+          "crm": "Angular",
+          "collaboratorsPlatform": "Vue.js"
+        },
+        "automation": ["n8n"],
+        "analytics": ["Metabase"]
+      }
+    },
+    "motian": {
+      "status": "production",
+      "cover": {
+        "src": "/src/assets/img/motian.webp"
+      },
+      "techStack": {
+        "backend": ["Django REST Framework", "PostgreSQL"],
+        "mobileApp": ["Flutter"],
+        "frontend": {
+          "managementPlatform": "Angular",
+          "clientPlatform": "Vue.js"
+        },
+        "automation": ["n8n"],
+        "communications": ["Listmonk"]
+      }
+    },
+    "montable-valoraciones": {
+      "status": "testing",
+      "cover": {
+        "src": "/src/assets/img/dashboard.jpg"
+      },
+      "techStack": {
+        "backend": ["Django REST Framework"],
+        "frontend": ["Vue.js"],
+        "automation": ["n8n"]
+      }
+    }
+  }
+}
