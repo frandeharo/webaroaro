@@ -1328,6 +1328,22 @@ const secondaryServices = computed(() => {
   line-height: 1.6;
 }
 
+.card-description a {
+  color: rgb(14, 165, 233);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: rgba(14, 165, 233, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-description a:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(14, 165, 233, 0.3);
+  box-shadow: 0 0 12px rgba(14, 165, 233, 0.4);
+}
+
 .card-features {
   display: flex;
   flex-direction: column;
