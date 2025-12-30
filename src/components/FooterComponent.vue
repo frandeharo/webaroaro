@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { Linkedin01Icon, Mail01Icon, Location01Icon, FavouriteIcon } from 'hugeicons-vue'
+import { Mail01Icon, Location01Icon, FavouriteIcon } from 'hugeicons-vue'
 
 // Import logos
 import pythonLogo from '@/assets/logos/python.svg'
@@ -36,25 +36,12 @@ const techStack = [
   { name: 'Flutter', logo: flutterLogo },
 ]
 
-const socialLinks = computed(() => [
-  {
-    name: t('footer.social.linkedin'),
-    url: '#',
-    icon: 'linkedin',
-    component: Linkedin01Icon,
-  },
-  {
-    name: t('footer.social.email'),
-    url: 'mailto:hola@aroarostudio.com',
-    icon: 'mail',
-    component: Mail01Icon,
-  },
-])
 
 const quickLinks = computed(() => [
-  { name: t('nav.home'), path: '/' },
   { name: t('nav.projects'), path: '/proyectos' },
-  { name: t('nav.contact'), path: '/contacto' },
+  { name: t('footer.links.legal'), path: '/aviso-legal' },
+  { name: t('footer.links.cookies'), path: '/politica-cookies' },
+  { name: t('footer.links.privacy'), path: '/politica-privacidad' },
 ])
 </script>
 
@@ -135,38 +122,6 @@ const quickLinks = computed(() => [
         </ul>
       </div>
 
-      <!-- Social Links -->
-      <div class="footer-section">
-        <h4
-          v-motion
-          :initial="{ opacity: 0, y: 20 }"
-          :visible="{ opacity: 1, y: 0, transition: { duration: 800, delay: 100 } }"
-          class="footer-title"
-        >
-          {{ t('footer.social.title') }}
-        </h4>
-        <div class="social-links">
-          <a
-            v-for="(social, index) in socialLinks"
-            :key="social.name"
-            :href="social.url"
-            v-motion
-            :initial="{ opacity: 0, scale: 0 }"
-            :visible="{
-              opacity: 1,
-              scale: 1,
-              transition: { duration: 600, delay: 200 + index * 100 },
-            }"
-            :hover="{ scale: 1.2, y: -5, transition: { duration: 200 } }"
-            :tap="{ scale: 0.9 }"
-            class="social-link"
-            :title="social.name"
-          >
-            <component :is="social.component" class="social-icon" />
-          </a>
-        </div>
-      </div>
-
       <!-- Contact Info -->
       <div class="footer-section">
         <h4
@@ -183,10 +138,10 @@ const quickLinks = computed(() => [
           :visible="{ opacity: 1, y: 0, transition: { duration: 800, delay: 200 } }"
           class="contact-info"
         >
-          <p class="contact-item">
+          <a href="mailto:hola@aroarostudio.com" class="contact-item contact-link">
             <Mail01Icon class="contact-icon" />
             {{ t('footer.contactInfo.email') }}
-          </p>
+          </a>
           <p class="contact-item">
             <Location01Icon class="contact-icon" />
             {{ t('footer.contactInfo.location') }}
@@ -295,45 +250,6 @@ const quickLinks = computed(() => [
   color: rgb(213, 214, 215);
 }
 
-/* Social Links */
-.social-links {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.social-link {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(213, 214, 215, 0.15);
-  border-radius: 12px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  will-change: transform;
-}
-
-.social-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(213, 214, 215, 0.3);
-  box-shadow: 0 8px 20px rgba(17, 48, 81, 0.3);
-}
-
-.social-icon {
-  width: 24px;
-  height: 24px;
-  color: rgb(213, 214, 215);
-  transition: color 0.3s ease;
-}
-
-.social-link:hover .social-icon {
-  color: rgb(34, 211, 238);
-}
-
 /* Contact Info */
 .contact-info {
   display: flex;
@@ -347,6 +263,15 @@ const quickLinks = computed(() => [
   gap: 0.75rem;
   color: rgba(213, 214, 215, 0.7);
   font-size: 0.95rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: rgb(213, 214, 215);
 }
 
 .contact-icon {

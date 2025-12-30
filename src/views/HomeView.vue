@@ -50,7 +50,7 @@ const primaryServices = computed(() => {
       features: servicesData.mobile.features,
       stats: t('services.mobile.stats'),
       gradient: 'from-blue-500 to-cyan-500',
-      expertLevel: 95,
+      expertLevel: 98,
     },
     {
       iconComponent: Settings01Icon,
@@ -60,7 +60,7 @@ const primaryServices = computed(() => {
       features: servicesData.automation.features,
       stats: t('services.automation.stats'),
       gradient: 'from-purple-500 to-pink-500',
-      expertLevel: 98,
+      expertLevel: 90,
     },
   ]
 })
@@ -423,7 +423,11 @@ const secondaryServices = computed(() => {
             </div>
             <div class="card-content">
               <h3 class="card-title">{{ t('transformation.coaching.title') }}</h3>
-              <i18n-t keypath="transformation.coaching.description" tag="p" class="card-description">
+              <i18n-t
+                keypath="transformation.coaching.description"
+                tag="p"
+                class="card-description"
+              >
                 <template #link>
                   <a href="https://quickingles.com" target="_blank" rel="noopener">{{
                     t('transformation.coaching.linkText')

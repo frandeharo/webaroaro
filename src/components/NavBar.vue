@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import aroaroLogo from '@/assets/aroaro_logo.webp'
 
 const isScrolled = ref(false)
+const isMobileMenuOpen = ref(false)
 const route = useRoute()
 const { t, locale } = useI18n()
 
@@ -16,14 +17,31 @@ const toggleLanguage = () => {
   locale.value = locale.value === 'es' ? 'en' : 'es'
 }
 
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
+
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false
+}
+
 const scrollToContact = (event: Event) => {
   event.preventDefault()
+  closeMobileMenu()
 
   const contactSection = document.getElementById('contacto')
   if (contactSection) {
     contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 }
+
+// Cerrar menú cuando cambia la ruta
+watch(
+  () => route.path,
+  () => {
+    closeMobileMenu()
+  },
+)
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
@@ -53,6 +71,7 @@ onUnmounted(() => {
           <img :src="aroaroLogo" alt="Aro Aro Studio" class="logo-image" />
         </RouterLink>
 
+        <!-- Desktop nav links -->
         <div class="nav-links">
           <RouterLink
             to="/"
@@ -96,8 +115,58 @@ onUnmounted(() => {
             {{ locale === 'es' ? '🇬🇧' : '🇪🇸' }}
           </button>
         </div>
+
+        <!-- Mobile menu button -->
+        <button
+          class="mobile-menu-btn"
+          @click="toggleMobileMenu"
+          :aria-label="isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'"
+        >
+          <span class="hamburger" :class="{ open: isMobileMenuOpen }">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
       </div>
     </div>
+
+    <!-- Mobile menu overlay -->
+    <Transition name="fade">
+      <div v-if="isMobileMenuOpen" class="mobile-overlay" @click="closeMobileMenu"></div>
+    </Transition>
+
+    <!-- Mobile menu -->
+    <Transition name="slide">
+      <div v-if="isMobileMenuOpen" class="mobile-menu">
+        <RouterLink
+          to="/"
+          class="mobile-link"
+          :class="{ active: route.path === '/' }"
+          @click="closeMobileMenu"
+        >
+          {{ t('nav.home') }}
+        </RouterLink>
+        <RouterLink
+          to="/proyectos"
+          class="mobile-link"
+          :class="{ active: route.path === '/proyectos' }"
+          @click="closeMobileMenu"
+        >
+          {{ t('nav.projects') }}
+        </RouterLink>
+        <a href="#contacto" class="mobile-link" @click="scrollToContact">
+          {{ t('nav.contact') }}
+        </a>
+        <button
+          @click="toggleLanguage"
+          class="mobile-language-toggle"
+          :title="locale === 'es' ? 'Switch to English' : 'Cambiar a Español'"
+        >
+          {{ locale === 'es' ? '🇬🇧 English' : '🇪🇸 Español' }}
+        </button>
+      </div>
+    </Transition>
   </nav>
 </template>
 
@@ -130,7 +199,7 @@ onUnmounted(() => {
   padding: 0.75rem 1.5rem;
   will-change: transform, border-radius, padding;
   position: relative;
-  overflow: hidden;
+  z-index: 1001;
 }
 
 .dynamic-island::before {
@@ -265,6 +334,134 @@ onUnmounted(() => {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+/* Mobile menu button */
+.mobile-menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1001;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 24px;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: rgb(213, 214, 215);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile overlay */
+.mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 999;
+  pointer-events: auto;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+  right: 1rem;
+  background: rgba(7, 10, 14, 0.95);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(213, 214, 215, 0.15);
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+  pointer-events: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-link {
+  color: rgba(213, 214, 215, 0.85);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.mobile-link:hover,
+.mobile-link.active {
+  color: rgb(213, 214, 215);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-language-toggle {
+  color: rgba(213, 214, 215, 0.85);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(213, 214, 215, 0.2);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.mobile-language-toggle:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(213, 214, 215, 0.4);
+}
+
+/* Transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
   .navbar {
@@ -309,6 +506,10 @@ onUnmounted(() => {
 
   .nav-links {
     display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
   }
 
   .logo-image {
