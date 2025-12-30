@@ -63,7 +63,7 @@ export default {
     coaching: {
       title: 'Executive English Coaching',
       description: 'Specialized program for executives in collaboration with {link}',
-      linkText: 'Quick English',
+      linkText: 'Quickinglés',
       features: ['Business English', 'International Networking', 'Global Leadership'],
     },
     metrics: {
@@ -175,7 +175,8 @@ export default {
     legalNotice: {
       title: 'Legal Notice',
       copyright: '© Aro Aro Studio – All rights reserved',
-      intro: 'In compliance with the provisions of Article 10 of Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSI-CE), users are informed of the following identifying data of the website owner:',
+      intro:
+        'In compliance with the provisions of Article 10 of Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSI-CE), users are informed of the following identifying data of the website owner:',
       holder: 'Owner',
       holderName: 'Francisco Javier Lineros de Haro',
       tradeName: 'Trade name',
@@ -187,26 +188,35 @@ export default {
       website: 'Website',
       websiteValue: 'https://aroarostudio.com',
       section1Title: '1. Purpose and scope of application',
-      section1Content: 'This Legal Notice governs access, navigation and use of the website https://aroarostudio.com, as well as the responsibilities arising from the use of its contents (understanding "contents" as texts, graphics, designs, codes, software, photographs, music, videos, sounds, databases, images and other creations protected by current regulations).\n\nAccess to this website grants the status of user and implies full and unreserved acceptance of all provisions included in this Legal Notice, in the version published at the time of access.',
+      section1Content:
+        'This Legal Notice governs access, navigation and use of the website https://aroarostudio.com, as well as the responsibilities arising from the use of its contents (understanding "contents" as texts, graphics, designs, codes, software, photographs, music, videos, sounds, databases, images and other creations protected by current regulations).\n\nAccess to this website grants the status of user and implies full and unreserved acceptance of all provisions included in this Legal Notice, in the version published at the time of access.',
       section2Title: '2. Terms of use',
-      section2Content: 'The user agrees to make appropriate use of the website and its contents, in accordance with current legislation, good faith, public order and generally accepted practices, refraining from using the site for illegal, fraudulent purposes or harmful to the rights and interests of third parties.\n\nAro Aro Studio reserves the right to modify, update or delete at any time and without prior notice the information, contents or configuration of the website.',
+      section2Content:
+        'The user agrees to make appropriate use of the website and its contents, in accordance with current legislation, good faith, public order and generally accepted practices, refraining from using the site for illegal, fraudulent purposes or harmful to the rights and interests of third parties.\n\nAro Aro Studio reserves the right to modify, update or delete at any time and without prior notice the information, contents or configuration of the website.',
       section3Title: '3. Liability',
-      section3Content: 'Aro Aro Studio does not guarantee the absence of errors in accessing the website, in its content, nor that it is permanently updated, although it will use all reasonable means to, where appropriate, avoid them, correct them or update them.\n\nThe owner is not responsible for damages of any kind that may arise, by way of example only, from:\n\n• The lack of availability, maintenance or effective operation of the website.\n• The existence of viruses, malicious programs or harmful content.\n• The illegal, negligent or fraudulent use of the website by users.\n\nIn the event that the website contains links or hyperlinks to other Internet sites, Aro Aro Studio will not exercise any type of control over said sites and contents, nor assume any responsibility for them.',
+      section3Content:
+        'Aro Aro Studio does not guarantee the absence of errors in accessing the website, in its content, nor that it is permanently updated, although it will use all reasonable means to, where appropriate, avoid them, correct them or update them.\n\nThe owner is not responsible for damages of any kind that may arise, by way of example only, from:\n\n• The lack of availability, maintenance or effective operation of the website.\n• The existence of viruses, malicious programs or harmful content.\n• The illegal, negligent or fraudulent use of the website by users.\n\nIn the event that the website contains links or hyperlinks to other Internet sites, Aro Aro Studio will not exercise any type of control over said sites and contents, nor assume any responsibility for them.',
       section4Title: '4. Use of cookies',
-      section4Content: 'The website may use technical cookies necessary for its correct operation and display. These cookies are temporary and are not used in any case to collect personal information without the user\'s consent, in accordance with current regulations.\n\nFor more information, the user can consult the corresponding Cookie Policy.',
+      section4Content:
+        "The website may use technical cookies necessary for its correct operation and display. These cookies are temporary and are not used in any case to collect personal information without the user's consent, in accordance with current regulations.\n\nFor more information, the user can consult the corresponding Cookie Policy.",
       section5Title: '5. Third-party generated content',
-      section5Content: 'Aro Aro Studio is not responsible for content published by third parties in spaces enabled for user participation, such as comments, social networks or other means of interaction.\n\nHowever, and in accordance with the provisions of articles 11 and 16 of the LSSI-CE, the owner undertakes to remove or block any content that may be contrary to current legislation, the rights of third parties or public order, as soon as it becomes aware of them.',
+      section5Content:
+        'Aro Aro Studio is not responsible for content published by third parties in spaces enabled for user participation, such as comments, social networks or other means of interaction.\n\nHowever, and in accordance with the provisions of articles 11 and 16 of the LSSI-CE, the owner undertakes to remove or block any content that may be contrary to current legislation, the rights of third parties or public order, as soon as it becomes aware of them.',
       section6Title: '6. Intellectual and industrial property',
-      section6Content: 'All contents of the website, including but not limited to its graphic design, structure, source code, texts, images, logos and other elements, are owned by Aro Aro Studio or it has the corresponding rights of use, and are protected by Spanish and international regulations on intellectual and industrial property.\n\nThe reproduction, distribution, public communication, transformation or any other form of exploitation, total or partial, of the contents of the website without the express written authorization of the owner is expressly prohibited.\n\nContent belonging to third parties that may appear on the website belongs to their respective owners, who assume any responsibility derived from them.',
+      section6Content:
+        'All contents of the website, including but not limited to its graphic design, structure, source code, texts, images, logos and other elements, are owned by Aro Aro Studio or it has the corresponding rights of use, and are protected by Spanish and international regulations on intellectual and industrial property.\n\nThe reproduction, distribution, public communication, transformation or any other form of exploitation, total or partial, of the contents of the website without the express written authorization of the owner is expressly prohibited.\n\nContent belonging to third parties that may appear on the website belongs to their respective owners, who assume any responsibility derived from them.',
       section7Title: '7. Exclusion of direct links',
-      section7Content: 'The establishment of direct links to specific content of the website without prior authorization is not permitted, and in any case, links should always be made to the main page https://aroarostudio.com.',
+      section7Content:
+        'The establishment of direct links to specific content of the website without prior authorization is not permitted, and in any case, links should always be made to the main page https://aroarostudio.com.',
       section8Title: '8. Applicable law and jurisdiction',
-      section8Content: 'This Legal Notice is governed entirely by Spanish law. For the resolution of any dispute that may arise from access or use of the website, the parties expressly submit to the Courts and Tribunals that are legally competent in Spanish territory, with express waiver of any other jurisdiction that may correspond to them.',
+      section8Content:
+        'This Legal Notice is governed entirely by Spanish law. For the resolution of any dispute that may arise from access or use of the website, the parties expressly submit to the Courts and Tribunals that are legally competent in Spanish territory, with express waiver of any other jurisdiction that may correspond to them.',
     },
     privacyPolicy: {
       title: 'Privacy Policy',
       section1Title: '1. Data Controller',
-      section1Content: 'In compliance with the provisions of Regulation (EU) 2016/679 (GDPR) and current Spanish regulations on personal data protection, users are informed of the following data controller information:',
+      section1Content:
+        'In compliance with the provisions of Regulation (EU) 2016/679 (GDPR) and current Spanish regulations on personal data protection, users are informed of the following data controller information:',
       responsible: 'Data Controller',
       responsibleName: 'Francisco Javier Lineros de Haro',
       tradeName: 'Trade name',
@@ -218,40 +228,56 @@ export default {
       email: 'Contact email',
       emailValue: 'hola@aroarostudio.com',
       section2Title: '2. Applicable regulations',
-      section2Content: 'This Privacy Policy is governed by the provisions of:\n\n• Regulation (EU) 2016/679 of the European Parliament and of the Council (GDPR).\n• Organic Law 3/2018, on Personal Data Protection and guarantee of digital rights (LOPDGDD).\n• Law 34/2002, on Information Society Services and Electronic Commerce (LSSI-CE).\n\nBy providing personal data through the website, the user declares to have read and understood this Privacy Policy and expressly accepts the processing of their data as established herein.',
+      section2Content:
+        'This Privacy Policy is governed by the provisions of:\n\n• Regulation (EU) 2016/679 of the European Parliament and of the Council (GDPR).\n• Organic Law 3/2018, on Personal Data Protection and guarantee of digital rights (LOPDGDD).\n• Law 34/2002, on Information Society Services and Electronic Commerce (LSSI-CE).\n\nBy providing personal data through the website, the user declares to have read and understood this Privacy Policy and expressly accepts the processing of their data as established herein.',
       section3Title: '3. Data Protection Officer',
-      section3Content: 'Aro Aro Studio does not have a Data Protection Officer, as it is not legally required to do so due to the nature of its activity.',
+      section3Content:
+        'Aro Aro Studio does not have a Data Protection Officer, as it is not legally required to do so due to the nature of its activity.',
       section4Title: '4. Purpose of data processing',
-      section4Content: 'Personal data collected through the website is processed exclusively for the following purposes:\n\n• To attend to and manage inquiries or requests for information sent by the user through the contact form.\n• To maintain communications arising from such inquiries.\n\nIn no case will the data be used for sending unsolicited commercial communications or transferred to third parties for advertising purposes.',
+      section4Content:
+        'Personal data collected through the website is processed exclusively for the following purposes:\n\n• To attend to and manage inquiries or requests for information sent by the user through the contact form.\n• To maintain communications arising from such inquiries.\n\nIn no case will the data be used for sending unsolicited commercial communications or transferred to third parties for advertising purposes.',
       section5Title: '5. Legal basis for processing',
-      section5Content: 'The legal basis for processing personal data is the express consent of the user, granted by completing and submitting the contact form, after accepting this Privacy Policy through an affirmative action.\n\nThe user may withdraw their consent at any time, without affecting the lawfulness of processing based on consent prior to its withdrawal.',
+      section5Content:
+        'The legal basis for processing personal data is the express consent of the user, granted by completing and submitting the contact form, after accepting this Privacy Policy through an affirmative action.\n\nThe user may withdraw their consent at any time, without affecting the lawfulness of processing based on consent prior to its withdrawal.',
       section6Title: '6. Categories of data processed',
-      section6Content: 'Personal data collected through the website belongs to the following categories:\n\n• Identification and contact data: name, email address, and any other information the user voluntarily provides in the message.\n• Technical data: IP address and other data strictly necessary for the correct operation of the form.\n\nNo special categories of data are processed.',
+      section6Content:
+        'Personal data collected through the website belongs to the following categories:\n\n• Identification and contact data: name, email address, and any other information the user voluntarily provides in the message.\n• Technical data: IP address and other data strictly necessary for the correct operation of the form.\n\nNo special categories of data are processed.',
       section7Title: '7. Data retention period',
-      section7Content: 'Personal data will be kept only for the time necessary to attend to the user\'s inquiry and, subsequently, for the legally required periods to address potential liabilities.\n\nOnce these periods have ended, the data will be securely deleted.',
+      section7Content:
+        "Personal data will be kept only for the time necessary to attend to the user's inquiry and, subsequently, for the legally required periods to address potential liabilities.\n\nOnce these periods have ended, the data will be securely deleted.",
       section8Title: '8. Security measures',
-      section8Content: 'Aro Aro Studio has adopted the necessary technical and organizational measures to guarantee the security, integrity, and confidentiality of personal data, preventing its loss, alteration, unauthorized access, or improper use, in accordance with Article 32 of the GDPR.',
+      section8Content:
+        'Aro Aro Studio has adopted the necessary technical and organizational measures to guarantee the security, integrity, and confidentiality of personal data, preventing its loss, alteration, unauthorized access, or improper use, in accordance with Article 32 of the GDPR.',
       section9Title: '9. Data transfers and international transfers',
-      section9Content: 'Personal data will not be transferred to third parties nor will international data transfers be made, except by legal obligation or requirement by competent public authorities.',
+      section9Content:
+        'Personal data will not be transferred to third parties nor will international data transfers be made, except by legal obligation or requirement by competent public authorities.',
       section10Title: '10. User rights',
-      section10Content: 'The user may exercise the following rights at any time in relation to their personal data:\n\n• Right of access.\n• Right of rectification.\n• Right of erasure.\n• Right to restriction of processing.\n• Right to object.\n• Right to data portability.\n• Right to withdraw consent.',
+      section10Content:
+        'The user may exercise the following rights at any time in relation to their personal data:\n\n• Right of access.\n• Right of rectification.\n• Right of erasure.\n• Right to restriction of processing.\n• Right to object.\n• Right to data portability.\n• Right to withdraw consent.',
       section11Title: '11. Exercising rights',
-      section11Content: 'To exercise their rights, the user must send an express request to the email hola@aroarostudio.com, indicating the right they wish to exercise and attaching a copy of a valid document that allows verification of their identity.\n\nLikewise, the user has the right to file a complaint with the Spanish Data Protection Agency (AEPD) if they consider that the processing of their data does not comply with current regulations.',
+      section11Content:
+        'To exercise their rights, the user must send an express request to the email hola@aroarostudio.com, indicating the right they wish to exercise and attaching a copy of a valid document that allows verification of their identity.\n\nLikewise, the user has the right to file a complaint with the Spanish Data Protection Agency (AEPD) if they consider that the processing of their data does not comply with current regulations.',
       section12Title: '12. Privacy policy modifications',
-      section12Content: 'Aro Aro Studio reserves the right to modify this Privacy Policy to adapt it to legislative, jurisprudential changes or to criteria of the supervisory authority. Any modification will be duly published on the website.',
+      section12Content:
+        'Aro Aro Studio reserves the right to modify this Privacy Policy to adapt it to legislative, jurisprudential changes or to criteria of the supervisory authority. Any modification will be duly published on the website.',
     },
     cookiesPolicy: {
       title: 'Cookie Policy',
       section1Title: '1. General information',
-      section1Content: 'In accordance with current regulations on information society services and electronic commerce, and in particular with Royal Decree-Law 13/2012, of March 30, users of the website https://aroarostudio.com are informed about the use of cookies.\n\nThe purpose of this document is to provide clear and accurate information about what cookies are and the specific use made of them on this website.',
+      section1Content:
+        'In accordance with current regulations on information society services and electronic commerce, and in particular with Royal Decree-Law 13/2012, of March 30, users of the website https://aroarostudio.com are informed about the use of cookies.\n\nThe purpose of this document is to provide clear and accurate information about what cookies are and the specific use made of them on this website.',
       section2Title: '2. What are cookies?',
-      section2Content: 'Cookies are small text files that websites can store on the user\'s device (computer, smartphone, tablet, etc.) when browsing the Internet. Their function can be very diverse, such as allowing the correct technical operation of the site, remembering user preferences, or collecting statistical information about browsing.\n\nCookies do not allow personal identification of the user and, in general, are only associated with the browser and device from which the website is accessed.',
+      section2Content:
+        "Cookies are small text files that websites can store on the user's device (computer, smartphone, tablet, etc.) when browsing the Internet. Their function can be very diverse, such as allowing the correct technical operation of the site, remembering user preferences, or collecting statistical information about browsing.\n\nCookies do not allow personal identification of the user and, in general, are only associated with the browser and device from which the website is accessed.",
       section3Title: '3. Use of cookies on this website',
-      section3Content: 'Currently, the Aro Aro Studio website does not use its own or third-party cookies, nor similar data storage and retrieval devices.\n\nConsequently:\n\n• No technical cookies are installed.\n• No analytics or measurement cookies are used.\n• No advertising or behavioral advertising cookies are used.\n• No browsing data is collected for statistical or commercial purposes.\n\nAccess and navigation through the website is carried out without storing information on the user\'s device through cookies.',
+      section3Content:
+        "Currently, the Aro Aro Studio website does not use its own or third-party cookies, nor similar data storage and retrieval devices.\n\nConsequently:\n\n• No technical cookies are installed.\n• No analytics or measurement cookies are used.\n• No advertising or behavioral advertising cookies are used.\n• No browsing data is collected for statistical or commercial purposes.\n\nAccess and navigation through the website is carried out without storing information on the user's device through cookies.",
       section4Title: '4. Third-party cookies',
-      section4Content: 'This website does not incorporate third-party services that install cookies on the user\'s device, such as web analytics tools, advertising platforms, or external integrations that involve the use of cookies.',
+      section4Content:
+        "This website does not incorporate third-party services that install cookies on the user's device, such as web analytics tools, advertising platforms, or external integrations that involve the use of cookies.",
       section5Title: '5. Cookie configuration, blocking, and deletion',
-      section5Content: 'Although this website does not use cookies, the user can, at any time, allow, block, or delete cookies installed on their device by configuring the options of the browser they use. Below are guidance links for the most commonly used browsers:',
+      section5Content:
+        'Although this website does not use cookies, the user can, at any time, allow, block, or delete cookies installed on their device by configuring the options of the browser they use. Below are guidance links for the most commonly used browsers:',
       browserChrome: 'Google Chrome',
       browserChromeDesc: 'Settings > Privacy and security > Cookies and other site data',
       browserFirefox: 'Mozilla Firefox',
@@ -264,11 +290,14 @@ export default {
       browserSafariIOSDesc: 'Settings > Safari > Privacy & Security',
       browserOpera: 'Opera',
       browserOperaDesc: 'Settings > Advanced > Privacy & security > Cookies',
-      section5Note: 'The user should be aware that disabling or deleting cookies may affect the proper functioning of certain websites, although not this site as long as cookies are not used.',
+      section5Note:
+        'The user should be aware that disabling or deleting cookies may affect the proper functioning of certain websites, although not this site as long as cookies are not used.',
       section6Title: '6. Updates and changes to the Cookie Policy',
-      section6Content: 'Aro Aro Studio reserves the right to modify this Cookie Policy in the event that cookies or similar technologies are implemented on the website in the future, or when regulatory changes so require.\n\nAny modification will be duly published in this same section and will be applicable from the moment of its publication.',
+      section6Content:
+        'Aro Aro Studio reserves the right to modify this Cookie Policy in the event that cookies or similar technologies are implemented on the website in the future, or when regulatory changes so require.\n\nAny modification will be duly published in this same section and will be applicable from the moment of its publication.',
       section7Title: '7. Contact',
-      section7Content: 'For any questions or inquiries related to this Cookie Policy, the user can contact us through the following email:',
+      section7Content:
+        'For any questions or inquiries related to this Cookie Policy, the user can contact us through the following email:',
       contactEmail: 'hola@aroarostudio.com',
     },
     social: {

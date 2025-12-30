@@ -76,7 +76,7 @@ export default {
     coaching: {
       title: 'Coaching Ejecutivo en Inglés',
       description: 'Programa especializado para directivos en colaboración con {link}',
-      linkText: 'Quick English',
+      linkText: 'Quickinglés',
       features: ['Business English', 'Networking Internacional', 'Liderazgo Global'],
     },
     metrics: {
@@ -188,7 +188,8 @@ export default {
     legalNotice: {
       title: 'Aviso Legal',
       copyright: '© Aro Aro Studio – Todos los derechos reservados',
-      intro: 'En cumplimiento de lo dispuesto en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se informa a los usuarios de los siguientes datos identificativos del titular del sitio web:',
+      intro:
+        'En cumplimiento de lo dispuesto en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se informa a los usuarios de los siguientes datos identificativos del titular del sitio web:',
       holder: 'Titular',
       holderName: 'Francisco Javier Lineros de Haro',
       tradeName: 'Nombre comercial',
@@ -200,26 +201,35 @@ export default {
       website: 'Sitio web',
       websiteValue: 'https://aroarostudio.com',
       section1Title: '1. Objeto y ámbito de aplicación',
-      section1Content: 'El presente Aviso Legal regula el acceso, la navegación y el uso del sitio web https://aroarostudio.com, así como las responsabilidades derivadas de la utilización de sus contenidos (entendiendo por "contenidos" los textos, gráficos, diseños, códigos, software, fotografías, música, vídeos, sonidos, bases de datos, imágenes y demás creaciones protegidas por la normativa vigente).\n\nEl acceso a este sitio web atribuye la condición de usuario e implica la aceptación plena y sin reservas de todas las disposiciones incluidas en este Aviso Legal, en la versión publicada en el momento en que se acceda al mismo.',
+      section1Content:
+        'El presente Aviso Legal regula el acceso, la navegación y el uso del sitio web https://aroarostudio.com, así como las responsabilidades derivadas de la utilización de sus contenidos (entendiendo por "contenidos" los textos, gráficos, diseños, códigos, software, fotografías, música, vídeos, sonidos, bases de datos, imágenes y demás creaciones protegidas por la normativa vigente).\n\nEl acceso a este sitio web atribuye la condición de usuario e implica la aceptación plena y sin reservas de todas las disposiciones incluidas en este Aviso Legal, en la versión publicada en el momento en que se acceda al mismo.',
       section2Title: '2. Condiciones de uso',
-      section2Content: 'El usuario se compromete a hacer un uso adecuado del sitio web y de sus contenidos, conforme a la legislación vigente, la buena fe, el orden público y los usos generalmente aceptados, absteniéndose de utilizar el sitio con fines ilícitos, fraudulentos o lesivos para los derechos e intereses de terceros.\n\nAro Aro Studio se reserva el derecho a modificar, actualizar o eliminar en cualquier momento y sin necesidad de previo aviso la información, los contenidos o la configuración del sitio web.',
+      section2Content:
+        'El usuario se compromete a hacer un uso adecuado del sitio web y de sus contenidos, conforme a la legislación vigente, la buena fe, el orden público y los usos generalmente aceptados, absteniéndose de utilizar el sitio con fines ilícitos, fraudulentos o lesivos para los derechos e intereses de terceros.\n\nAro Aro Studio se reserva el derecho a modificar, actualizar o eliminar en cualquier momento y sin necesidad de previo aviso la información, los contenidos o la configuración del sitio web.',
       section3Title: '3. Responsabilidad',
-      section3Content: 'Aro Aro Studio no garantiza la inexistencia de errores en el acceso al sitio web, en su contenido ni que este se encuentre permanentemente actualizado, aunque empleará todos los medios razonables para, en su caso, evitarlos, corregirlos o actualizarlos.\n\nEl titular no se hace responsable de los daños o perjuicios de cualquier naturaleza que pudieran derivarse, a título meramente enunciativo, de:\n\n• La falta de disponibilidad, mantenimiento o efectivo funcionamiento del sitio web.\n• La existencia de virus, programas maliciosos o contenidos lesivos.\n• El uso ilícito, negligente o fraudulento del sitio web por parte de los usuarios.\n\nEn caso de que el sitio web contenga enlaces o hipervínculos hacia otros sitios de Internet, Aro Aro Studio no ejercerá ningún tipo de control sobre dichos sitios y contenidos, ni asumirá responsabilidad alguna por los mismos.',
+      section3Content:
+        'Aro Aro Studio no garantiza la inexistencia de errores en el acceso al sitio web, en su contenido ni que este se encuentre permanentemente actualizado, aunque empleará todos los medios razonables para, en su caso, evitarlos, corregirlos o actualizarlos.\n\nEl titular no se hace responsable de los daños o perjuicios de cualquier naturaleza que pudieran derivarse, a título meramente enunciativo, de:\n\n• La falta de disponibilidad, mantenimiento o efectivo funcionamiento del sitio web.\n• La existencia de virus, programas maliciosos o contenidos lesivos.\n• El uso ilícito, negligente o fraudulento del sitio web por parte de los usuarios.\n\nEn caso de que el sitio web contenga enlaces o hipervínculos hacia otros sitios de Internet, Aro Aro Studio no ejercerá ningún tipo de control sobre dichos sitios y contenidos, ni asumirá responsabilidad alguna por los mismos.',
       section4Title: '4. Uso de cookies',
-      section4Content: 'El sitio web podrá utilizar cookies técnicas necesarias para el correcto funcionamiento y visualización del mismo. Dichas cookies tienen carácter temporal y no se utilizan en ningún caso para recabar información de carácter personal sin el consentimiento del usuario, de conformidad con la normativa vigente.\n\nPara más información, el usuario puede consultar la Política de Cookies correspondiente.',
+      section4Content:
+        'El sitio web podrá utilizar cookies técnicas necesarias para el correcto funcionamiento y visualización del mismo. Dichas cookies tienen carácter temporal y no se utilizan en ningún caso para recabar información de carácter personal sin el consentimiento del usuario, de conformidad con la normativa vigente.\n\nPara más información, el usuario puede consultar la Política de Cookies correspondiente.',
       section5Title: '5. Contenidos generados por terceros',
-      section5Content: 'Aro Aro Studio no se responsabiliza de los contenidos publicados por terceros en espacios habilitados para la participación de usuarios, tales como comentarios, redes sociales u otros medios de interacción.\n\nNo obstante, y de conformidad con lo dispuesto en los artículos 11 y 16 de la LSSI-CE, el titular se compromete a retirar o bloquear aquellos contenidos que pudieran resultar contrarios a la legislación vigente, a los derechos de terceros o al orden público, tan pronto tenga conocimiento efectivo de los mismos.',
+      section5Content:
+        'Aro Aro Studio no se responsabiliza de los contenidos publicados por terceros en espacios habilitados para la participación de usuarios, tales como comentarios, redes sociales u otros medios de interacción.\n\nNo obstante, y de conformidad con lo dispuesto en los artículos 11 y 16 de la LSSI-CE, el titular se compromete a retirar o bloquear aquellos contenidos que pudieran resultar contrarios a la legislación vigente, a los derechos de terceros o al orden público, tan pronto tenga conocimiento efectivo de los mismos.',
       section6Title: '6. Propiedad intelectual e industrial',
-      section6Content: 'Todos los contenidos del sitio web, incluyendo de forma no limitativa su diseño gráfico, estructura, código fuente, textos, imágenes, logotipos y demás elementos, son titularidad de Aro Aro Studio o dispone de los derechos de uso correspondientes, y se encuentran protegidos por la normativa española e internacional sobre propiedad intelectual e industrial.\n\nQueda expresamente prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación, total o parcial, de los contenidos del sitio web sin la autorización expresa y por escrito del titular.\n\nLos contenidos pertenecientes a terceros que pudieran aparecer en el sitio web pertenecen a sus respectivos propietarios, quienes asumen cualquier responsabilidad derivada de los mismos.',
+      section6Content:
+        'Todos los contenidos del sitio web, incluyendo de forma no limitativa su diseño gráfico, estructura, código fuente, textos, imágenes, logotipos y demás elementos, son titularidad de Aro Aro Studio o dispone de los derechos de uso correspondientes, y se encuentran protegidos por la normativa española e internacional sobre propiedad intelectual e industrial.\n\nQueda expresamente prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación, total o parcial, de los contenidos del sitio web sin la autorización expresa y por escrito del titular.\n\nLos contenidos pertenecientes a terceros que pudieran aparecer en el sitio web pertenecen a sus respectivos propietarios, quienes asumen cualquier responsabilidad derivada de los mismos.',
       section7Title: '7. Exclusión de enlaces directos',
-      section7Content: 'No se autoriza el establecimiento de enlaces directos a contenidos específicos del sitio web sin autorización previa, debiendo, en su caso, enlazarse siempre a la página principal https://aroarostudio.com.',
+      section7Content:
+        'No se autoriza el establecimiento de enlaces directos a contenidos específicos del sitio web sin autorización previa, debiendo, en su caso, enlazarse siempre a la página principal https://aroarostudio.com.',
       section8Title: '8. Legislación aplicable y jurisdicción',
-      section8Content: 'El presente Aviso Legal se rige íntegramente por la legislación española. Para la resolución de cualquier controversia que pudiera derivarse del acceso o uso del sitio web, las partes se someten expresamente a los Juzgados y Tribunales que resulten legalmente competentes en territorio español, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.',
+      section8Content:
+        'El presente Aviso Legal se rige íntegramente por la legislación española. Para la resolución de cualquier controversia que pudiera derivarse del acceso o uso del sitio web, las partes se someten expresamente a los Juzgados y Tribunales que resulten legalmente competentes en territorio español, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.',
     },
     privacyPolicy: {
       title: 'Política de Privacidad',
       section1Title: '1. Responsable del tratamiento',
-      section1Content: 'En cumplimiento de lo dispuesto en el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos personales, se informa a los usuarios de los siguientes datos del responsable del tratamiento:',
+      section1Content:
+        'En cumplimiento de lo dispuesto en el Reglamento (UE) 2016/679 (RGPD) y la normativa española vigente en materia de protección de datos personales, se informa a los usuarios de los siguientes datos del responsable del tratamiento:',
       responsible: 'Responsable',
       responsibleName: 'Francisco Javier Lineros de Haro',
       tradeName: 'Nombre comercial',
@@ -231,40 +241,56 @@ export default {
       email: 'Correo electrónico de contacto',
       emailValue: 'hola@aroarostudio.com',
       section2Title: '2. Normativa aplicable',
-      section2Content: 'La presente Política de Privacidad se rige por lo dispuesto en:\n\n• Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD).\n• Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).\n• Ley 34/2002, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE).\n\nAl facilitar sus datos personales a través del sitio web, el usuario declara haber leído y comprendido esta Política de Privacidad y acepta expresamente el tratamiento de sus datos conforme a lo aquí establecido.',
+      section2Content:
+        'La presente Política de Privacidad se rige por lo dispuesto en:\n\n• Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD).\n• Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).\n• Ley 34/2002, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE).\n\nAl facilitar sus datos personales a través del sitio web, el usuario declara haber leído y comprendido esta Política de Privacidad y acepta expresamente el tratamiento de sus datos conforme a lo aquí establecido.',
       section3Title: '3. Delegado de Protección de Datos',
-      section3Content: 'Aro Aro Studio no cuenta con Delegado de Protección de Datos, al no estar legalmente obligado a ello por la naturaleza de su actividad.',
+      section3Content:
+        'Aro Aro Studio no cuenta con Delegado de Protección de Datos, al no estar legalmente obligado a ello por la naturaleza de su actividad.',
       section4Title: '4. Finalidad del tratamiento de los datos',
-      section4Content: 'Los datos personales recabados a través del sitio web se tratan exclusivamente con las siguientes finalidades:\n\n• Atender y gestionar las consultas o solicitudes de información enviadas por el usuario a través del formulario de contacto.\n• Mantener comunicaciones derivadas de dichas consultas.\n\nEn ningún caso los datos serán utilizados para el envío de comunicaciones comerciales no solicitadas ni cedidos a terceros con fines publicitarios.',
+      section4Content:
+        'Los datos personales recabados a través del sitio web se tratan exclusivamente con las siguientes finalidades:\n\n• Atender y gestionar las consultas o solicitudes de información enviadas por el usuario a través del formulario de contacto.\n• Mantener comunicaciones derivadas de dichas consultas.\n\nEn ningún caso los datos serán utilizados para el envío de comunicaciones comerciales no solicitadas ni cedidos a terceros con fines publicitarios.',
       section5Title: '5. Legitimación del tratamiento',
-      section5Content: 'La base legal para el tratamiento de los datos personales es el consentimiento expreso del usuario, otorgado al completar y enviar el formulario de contacto, tras aceptar la presente Política de Privacidad mediante una acción afirmativa.\n\nEl usuario podrá retirar su consentimiento en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.',
+      section5Content:
+        'La base legal para el tratamiento de los datos personales es el consentimiento expreso del usuario, otorgado al completar y enviar el formulario de contacto, tras aceptar la presente Política de Privacidad mediante una acción afirmativa.\n\nEl usuario podrá retirar su consentimiento en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.',
       section6Title: '6. Categorías de datos tratados',
-      section6Content: 'Los datos personales que se recaban a través del sitio web pertenecen a las siguientes categorías:\n\n• Datos identificativos y de contacto: nombre, dirección de correo electrónico y cualquier otra información que el usuario facilite voluntariamente en el mensaje.\n• Datos técnicos: dirección IP y otros datos estrictamente necesarios para el correcto funcionamiento del formulario.\n\nNo se tratan categorías especiales de datos.',
+      section6Content:
+        'Los datos personales que se recaban a través del sitio web pertenecen a las siguientes categorías:\n\n• Datos identificativos y de contacto: nombre, dirección de correo electrónico y cualquier otra información que el usuario facilite voluntariamente en el mensaje.\n• Datos técnicos: dirección IP y otros datos estrictamente necesarios para el correcto funcionamiento del formulario.\n\nNo se tratan categorías especiales de datos.',
       section7Title: '7. Plazo de conservación de los datos',
-      section7Content: 'Los datos personales se conservarán únicamente durante el tiempo necesario para atender la consulta del usuario y, posteriormente, durante los plazos legalmente exigidos para la atención de posibles responsabilidades.\n\nUna vez finalizados dichos plazos, los datos serán eliminados de forma segura.',
+      section7Content:
+        'Los datos personales se conservarán únicamente durante el tiempo necesario para atender la consulta del usuario y, posteriormente, durante los plazos legalmente exigidos para la atención de posibles responsabilidades.\n\nUna vez finalizados dichos plazos, los datos serán eliminados de forma segura.',
       section8Title: '8. Medidas de seguridad',
-      section8Content: 'Aro Aro Studio ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos personales, evitando su pérdida, alteración, acceso no autorizado o uso indebido, de conformidad con lo dispuesto en el artículo 32 del RGPD.',
+      section8Content:
+        'Aro Aro Studio ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos personales, evitando su pérdida, alteración, acceso no autorizado o uso indebido, de conformidad con lo dispuesto en el artículo 32 del RGPD.',
       section9Title: '9. Cesión de datos y transferencias internacionales',
-      section9Content: 'No se cederán datos personales a terceros ni se realizarán transferencias internacionales de datos, salvo obligación legal o requerimiento por parte de autoridades públicas competentes.',
+      section9Content:
+        'No se cederán datos personales a terceros ni se realizarán transferencias internacionales de datos, salvo obligación legal o requerimiento por parte de autoridades públicas competentes.',
       section10Title: '10. Derechos del usuario',
-      section10Content: 'El usuario puede ejercer en cualquier momento los siguientes derechos en relación con sus datos personales:\n\n• Derecho de acceso.\n• Derecho de rectificación.\n• Derecho de supresión.\n• Derecho a la limitación del tratamiento.\n• Derecho de oposición.\n• Derecho a la portabilidad de los datos.\n• Derecho a retirar el consentimiento otorgado.',
+      section10Content:
+        'El usuario puede ejercer en cualquier momento los siguientes derechos en relación con sus datos personales:\n\n• Derecho de acceso.\n• Derecho de rectificación.\n• Derecho de supresión.\n• Derecho a la limitación del tratamiento.\n• Derecho de oposición.\n• Derecho a la portabilidad de los datos.\n• Derecho a retirar el consentimiento otorgado.',
       section11Title: '11. Ejercicio de derechos',
-      section11Content: 'Para ejercer sus derechos, el usuario deberá enviar una solicitud expresa al correo electrónico hola@aroarostudio.com, indicando el derecho que desea ejercer y adjuntando una copia de un documento válido que permita verificar su identidad.\n\nAsimismo, el usuario tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) si considera que el tratamiento de sus datos no se ajusta a la normativa vigente.',
+      section11Content:
+        'Para ejercer sus derechos, el usuario deberá enviar una solicitud expresa al correo electrónico hola@aroarostudio.com, indicando el derecho que desea ejercer y adjuntando una copia de un documento válido que permita verificar su identidad.\n\nAsimismo, el usuario tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) si considera que el tratamiento de sus datos no se ajusta a la normativa vigente.',
       section12Title: '12. Modificaciones de la política de privacidad',
-      section12Content: 'Aro Aro Studio se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a cambios legislativos, jurisprudenciales o a criterios de la autoridad de control. Cualquier modificación será debidamente publicada en el sitio web.',
+      section12Content:
+        'Aro Aro Studio se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a cambios legislativos, jurisprudenciales o a criterios de la autoridad de control. Cualquier modificación será debidamente publicada en el sitio web.',
     },
     cookiesPolicy: {
       title: 'Política de Cookies',
       section1Title: '1. Información general',
-      section1Content: 'De conformidad con lo dispuesto en la normativa vigente en materia de servicios de la sociedad de la información y comercio electrónico, y en particular con el Real Decreto-ley 13/2012, de 30 de marzo, se informa a los usuarios del sitio web https://aroarostudio.com sobre el uso de cookies.\n\nEl presente documento tiene como finalidad ofrecer información clara y precisa sobre qué son las cookies y el uso concreto que se hace de ellas en este sitio web.',
+      section1Content:
+        'De conformidad con lo dispuesto en la normativa vigente en materia de servicios de la sociedad de la información y comercio electrónico, y en particular con el Real Decreto-ley 13/2012, de 30 de marzo, se informa a los usuarios del sitio web https://aroarostudio.com sobre el uso de cookies.\n\nEl presente documento tiene como finalidad ofrecer información clara y precisa sobre qué son las cookies y el uso concreto que se hace de ellas en este sitio web.',
       section2Title: '2. ¿Qué son las cookies?',
-      section2Content: 'Las cookies son pequeños archivos de texto que los sitios web pueden almacenar en el dispositivo del usuario (ordenador, smartphone, tablet, etc.) al navegar por Internet. Su función puede ser muy diversa, como permitir el correcto funcionamiento técnico del sitio, recordar preferencias del usuario o recopilar información estadística sobre la navegación.\n\nLas cookies no permiten identificar personalmente al usuario y, en general, se asocian únicamente al navegador y dispositivo desde el que se accede al sitio web.',
+      section2Content:
+        'Las cookies son pequeños archivos de texto que los sitios web pueden almacenar en el dispositivo del usuario (ordenador, smartphone, tablet, etc.) al navegar por Internet. Su función puede ser muy diversa, como permitir el correcto funcionamiento técnico del sitio, recordar preferencias del usuario o recopilar información estadística sobre la navegación.\n\nLas cookies no permiten identificar personalmente al usuario y, en general, se asocian únicamente al navegador y dispositivo desde el que se accede al sitio web.',
       section3Title: '3. Uso de cookies en este sitio web',
-      section3Content: 'Actualmente, el sitio web de Aro Aro Studio no utiliza cookies propias ni de terceros, ni dispositivos de almacenamiento y recuperación de datos similares.\n\nEn consecuencia:\n\n• No se instalan cookies técnicas.\n• No se utilizan cookies de análisis o medición.\n• No se emplean cookies publicitarias ni de publicidad comportamental.\n• No se recaban datos de navegación con fines estadísticos o comerciales.\n\nEl acceso y navegación por el sitio web se realiza sin que se almacene información en el dispositivo del usuario mediante cookies.',
+      section3Content:
+        'Actualmente, el sitio web de Aro Aro Studio no utiliza cookies propias ni de terceros, ni dispositivos de almacenamiento y recuperación de datos similares.\n\nEn consecuencia:\n\n• No se instalan cookies técnicas.\n• No se utilizan cookies de análisis o medición.\n• No se emplean cookies publicitarias ni de publicidad comportamental.\n• No se recaban datos de navegación con fines estadísticos o comerciales.\n\nEl acceso y navegación por el sitio web se realiza sin que se almacene información en el dispositivo del usuario mediante cookies.',
       section4Title: '4. Cookies de terceros',
-      section4Content: 'Este sitio web no incorpora servicios de terceros que instalen cookies en el dispositivo del usuario, tales como herramientas de analítica web, plataformas publicitarias o integraciones externas que impliquen el uso de cookies.',
+      section4Content:
+        'Este sitio web no incorpora servicios de terceros que instalen cookies en el dispositivo del usuario, tales como herramientas de analítica web, plataformas publicitarias o integraciones externas que impliquen el uso de cookies.',
       section5Title: '5. Configuración, bloqueo y eliminación de cookies',
-      section5Content: 'Aunque este sitio web no utiliza cookies, el usuario puede, en cualquier momento, permitir, bloquear o eliminar las cookies instaladas en su dispositivo mediante la configuración de las opciones del navegador que utilice. A continuación, se facilitan enlaces orientativos para los navegadores más utilizados:',
+      section5Content:
+        'Aunque este sitio web no utiliza cookies, el usuario puede, en cualquier momento, permitir, bloquear o eliminar las cookies instaladas en su dispositivo mediante la configuración de las opciones del navegador que utilice. A continuación, se facilitan enlaces orientativos para los navegadores más utilizados:',
       browserChrome: 'Google Chrome',
       browserChromeDesc: 'Configuración > Privacidad y seguridad > Cookies y otros datos de sitios',
       browserFirefox: 'Mozilla Firefox',
@@ -277,11 +303,14 @@ export default {
       browserSafariIOSDesc: 'Ajustes > Safari > Privacidad y seguridad',
       browserOpera: 'Opera',
       browserOperaDesc: 'Configuración > Avanzado > Privacidad y seguridad > Cookies',
-      section5Note: 'El usuario debe tener en cuenta que la desactivación o eliminación de cookies puede afectar al correcto funcionamiento de determinados sitios web, aunque no al de este sitio mientras no se utilicen cookies.',
+      section5Note:
+        'El usuario debe tener en cuenta que la desactivación o eliminación de cookies puede afectar al correcto funcionamiento de determinados sitios web, aunque no al de este sitio mientras no se utilicen cookies.',
       section6Title: '6. Actualizaciones y cambios en la Política de Cookies',
-      section6Content: 'Aro Aro Studio se reserva el derecho a modificar la presente Política de Cookies en caso de que, en el futuro, se implementen cookies o tecnologías similares en el sitio web, o cuando se produzcan cambios normativos que así lo requieran.\n\nCualquier modificación será debidamente publicada en esta misma sección y resultará aplicable desde el momento de su publicación.',
+      section6Content:
+        'Aro Aro Studio se reserva el derecho a modificar la presente Política de Cookies en caso de que, en el futuro, se implementen cookies o tecnologías similares en el sitio web, o cuando se produzcan cambios normativos que así lo requieran.\n\nCualquier modificación será debidamente publicada en esta misma sección y resultará aplicable desde el momento de su publicación.',
       section7Title: '7. Contacto',
-      section7Content: 'Para cualquier duda o consulta relacionada con esta Política de Cookies, el usuario puede ponerse en contacto a través del siguiente correo electrónico:',
+      section7Content:
+        'Para cualquier duda o consulta relacionada con esta Política de Cookies, el usuario puede ponerse en contacto a través del siguiente correo electrónico:',
       contactEmail: 'hola@aroarostudio.com',
     },
     social: {
