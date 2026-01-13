@@ -22,31 +22,44 @@ export default {
   services: {
     title: 'Expertise that Transforms Business',
     subtitle:
-      'Over 8 years developing systems, AI automation, and enterprise solutions that transform manual processes into intelligent workflows operating 24/7',
+      'With over 15 years of experience in the development industry, we design systems, AI automations, and enterprise solutions that transform manual processes into intelligent workflows with 24/7 continuous operation.',
     expertBadge: 'Expert',
     mobile: {
       title: 'Application & Web Development',
-      description: 'Mobile and web apps that drive your business with cutting-edge technology',
-      features: ['Flutter & Dart', 'Vue & Angular', 'TypeScript', 'PWA', 'Native Apps'],
-      stats: '270+ Apps Created',
+      description: 'Mobile and web apps that drive your business',
+      longDescription:
+        'We create high-performance mobile and web applications that transform your business. From native apps to PWAs, we use the most advanced technologies to guarantee exceptional experiences on any device.',
+      features: ['Flutter', 'Django // NestJs', 'Vue // Angular'],
+      stats: '15+ Years Experience',
     },
     automation: {
-      title: 'Automation & Agents',
-      description: 'Intelligent AI automation operating 24/7 for your company',
-      features: ['N8N Workflows', 'LangChain & LangGraph', 'AI Agents'],
-      stats: '200+ Bots Created',
+      title: 'Automation & AI Agents',
+      description: 'Intelligent automation 24/7 for your company',
+      longDescription:
+        'We design intelligent automation workflows and AI agents that work tirelessly. From simple processes to complex systems with LangChain, we transform manual operations into automatic workflows that save time and resources.',
+      features: [
+        'N8N',
+        'LangChain & LangGraph',
+        'Autonomous Agents',
+        'RAG Systems',
+        'API Integrations',
+      ],
+      stats: '200+ Automations',
     },
     ai: {
       title: 'AI & Machine Learning',
-      description: 'Intelligent solutions with AI and natural language processing',
-      features: ['LangChain', 'RAG Systems', 'AI Chatbots'],
-      stats: '8+ Years Exp.',
+      description: 'Intelligent solutions with natural language processing',
+      features: ['RAG & Embeddings', 'AI Chatbots'],
     },
     backend: {
-      title: 'Backend & APIs',
-      description: 'Robust and scalable architectures with best practices',
-      features: ['Python & Django', 'Node.js & NestJS', 'Microservices'],
-      stats: '100+ APIs',
+      title: 'Backend, APIs & Integrations',
+      description: 'Robust architectures, REST APIs and scalable microservices',
+      features: ['Python & Django', 'Node.js & NestJS', 'FastAPI', 'Integrations'],
+    },
+    analytics: {
+      title: 'Analytics & Business Intelligence',
+      description: 'Data transformed into intelligent decisions and dynamic dashboards',
+      features: ['Metabase', 'Data Visualization', 'KPI Tracking'],
     },
   },
   transformation: {
