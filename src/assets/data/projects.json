@@ -6,7 +6,7 @@
       "status": "production",
       "featured": true,
       "cover": {
-        "src": "/src/assets/img/jcv.webp"
+        "src": "/assets/img/jcv.webp"
       },
       "technologies": ["Django", "Angular", "Vue", "n8n", "Metabase"]
     },
@@ -16,7 +16,7 @@
       "status": "production",
       "featured": false,
       "cover": {
-        "src": "/src/assets/img/motian.webp"
+        "src": "/assets/img/motian.webp"
       },
       "technologies": ["Django", "Flutter", "Angular", "Vue", "n8n", "Listmonk"]
     },
@@ -26,7 +26,7 @@
       "status": "testing",
       "featured": false,
       "cover": {
-        "src": "/src/assets/img/dashboard.jpg"
+        "src": "/assets/img/dashboard.jpg"
       },
       "technologies": ["Django", "Vue", "n8n"]
     }
