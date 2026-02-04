@@ -35,7 +35,7 @@
     "campoverde": {
       "status": "production",
       "cover": {
-        "src": "/src/assets/img/jcv.webp"
+        "src": "/assets/img/jcv.webp"
       },
       "techStack": {
         "backend": ["Django REST Framework"],
@@ -50,7 +50,7 @@
     "motian": {
       "status": "production",
       "cover": {
-        "src": "/src/assets/img/motian.webp"
+        "src": "/assets/img/motian.webp"
       },
       "techStack": {
         "backend": ["Django REST Framework", "PostgreSQL"],
@@ -66,7 +66,7 @@
     "montable-valoraciones": {
       "status": "testing",
       "cover": {
-        "src": "/src/assets/img/dashboard.jpg"
+        "src": "/assets/img/dashboard.jpg"
       },
       "techStack": {
         "backend": ["Django REST Framework"],
