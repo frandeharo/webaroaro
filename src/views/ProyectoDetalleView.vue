@@ -119,9 +119,9 @@ const getImageUrl = (path: string): string => {
   if (path.startsWith('http')) {
     return path
   }
-  if (path.startsWith('/src/assets/')) {
-    const cleanPath = path.replace('/src/', '../')
-    return new URL(cleanPath, import.meta.url).href
+  // /assets/img/x.webp → ../assets/img/x.webp (relativo a src/views/)
+  if (path.startsWith('/assets/')) {
+    return new URL(`..${path}`, import.meta.url).href
   }
   if (path.startsWith('@/')) {
     const cleanPath = path.replace('@/', '')

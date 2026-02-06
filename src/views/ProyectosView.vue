@@ -82,17 +82,17 @@ const getTechLogo = (tech: string): string | null => {
 
 // Helper para resolver rutas de imágenes con alias @
 const getImageUrl = (path: string): string => {
-  // Si la ruta ya es absoluta o http, devolverla tal cual
-  if (path.startsWith('http') || path.startsWith('/')) {
+  if (path.startsWith('http')) {
     return path
   }
-
-  // Si usa alias @/, reemplazarlo por la ruta relativa correcta
+  // /assets/img/x.webp → ../assets/img/x.webp (relativo a src/views/)
+  if (path.startsWith('/assets/')) {
+    return new URL(`..${path}`, import.meta.url).href
+  }
   if (path.startsWith('@/')) {
     const cleanPath = path.replace('@/', '')
     return new URL(`../${cleanPath}`, import.meta.url).href
   }
-
   return path
 }
 
