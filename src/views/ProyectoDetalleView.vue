@@ -115,18 +115,8 @@ const getTechLogo = (tech: string): string | null => {
   return techLogos[tech] || null
 }
 
+// Las imágenes de proyectos están en public/assets/img/ y se sirven estáticamente
 const getImageUrl = (path: string): string => {
-  if (path.startsWith('http')) {
-    return path
-  }
-  // /assets/img/x.webp → ../assets/img/x.webp (relativo a src/views/)
-  if (path.startsWith('/assets/')) {
-    return new URL(`..${path}`, import.meta.url).href
-  }
-  if (path.startsWith('@/')) {
-    const cleanPath = path.replace('@/', '')
-    return new URL(`../${cleanPath}`, import.meta.url).href
-  }
   return path
 }
 
